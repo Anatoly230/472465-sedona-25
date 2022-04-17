@@ -1,4 +1,5 @@
 .menu {
+  padding: 0px;
   z-index: 1;
   display: flex;
   flex-direction: column;
@@ -41,7 +42,7 @@
 .menu__item-link {
   display: inline-block;
   width: 100%;
-  padding: 0.95rem;
+  padding: 1.14rem 0.95rem;
   text-align: center;
   color: $invert-color;
   text-decoration: none;

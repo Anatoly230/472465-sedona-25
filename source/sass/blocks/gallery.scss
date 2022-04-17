@@ -1,0 +1,15 @@
+.gallery__content-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  @include block-width($mobile-width, 280px);
+
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width){
+flex-direction: row;
+flex-wrap: wrap;
+  }
+}

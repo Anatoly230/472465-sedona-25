@@ -1,4 +1,11 @@
 .video {
-  object-fit: cover;
-  width: 100%;
+max-width: $tablet-width;
+min-width: $mobile-width;
+min-height: 177px;
+}
+
+.video__item {
+display:block;
+object-fit: cover;
+width: 100%;
 }

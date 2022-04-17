@@ -17,3 +17,8 @@
   max-width: $extrimal-width;
   margin: 0 auto;
 }
+
+@mixin show-elem ($color: red, $outline-weight: 3px){
+outline: $outline-weight solid $color;
+outline-offset: $outline-weight;
+}

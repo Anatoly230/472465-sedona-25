@@ -1,0 +1,26 @@
+.card{
+  @include show-elem(yellow);
+
+  flex-basis: 280px;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  @media (min-width: $tablet-width){
+flex-basis: 324px;
+flex-grow: 0;
+  }
+
+}
+
+.card--promo {
+  flex-basis: 1200px;
+  flex-grow: 0;
+}
+
+
+.card__pic {
+  min-height: 280px;
+  min-width: 280px;
+object-fit: cover;
+
+}
