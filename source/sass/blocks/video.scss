@@ -1,11 +1,14 @@
 .video {
-max-width: $tablet-width;
-min-width: $mobile-width;
-min-height: 177px;
+  @media (min-width: $tablet-width) {
+    margin-top: 2.85rem;
+    margin-bottom: 2.85rem;
+  }
+
+
 }
 
 .video__item {
 display:block;
-object-fit: cover;
 width: 100%;
+object-fit: cover;
 }

@@ -19,17 +19,12 @@
 }
 
 .choice__heading--text {
-  font-size: 1.5rem;
-  font-weight: bold;
   text-align: center;
 
   @include block-width($mobile-width, 260px);
   max-width: 435px;
   padding: 1rem;
 
-  @media (min-width: $tablet-width) {
-    font-size: 2.14rem;
-  }
 }
 
 .choice__desc {

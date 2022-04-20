@@ -7,3 +7,9 @@
     font-size: 1.5rem;
   }
 }
+
+.heading-text--akcent {
+  @media (min-width: $tablet-width) {
+    font-size: 2.14rem;
+  }
+}

@@ -58,9 +58,3 @@ img {
   text-transform: uppercase;
   font-weight: bold;
 }
-
-// style for debug
-
-@mixin outline($color: #f00) {
-  outline: 3px solid $color;
-}

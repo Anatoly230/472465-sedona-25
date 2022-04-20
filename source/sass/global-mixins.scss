@@ -9,7 +9,7 @@
 // }
 
 @mixin adapt-width($current-media, $width-in-px) {
-  width: calc($mxWidth / $current-media * 100%);
+  width: calc($width-in-px / $current-media * 100%);
 }
 
 @mixin wrapper($extrimal-width) {
@@ -18,6 +18,8 @@
   margin: 0 auto;
 }
 
+
+// style for debug
 @mixin show-elem ($color: red, $outline-weight: 3px){
 outline: $outline-weight solid $color;
 outline-offset: $outline-weight;
